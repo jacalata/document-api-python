@@ -1,6 +1,4 @@
-Publish to Test-Py-Pi    
-environment:
-  name: test-pypi
+name: Publish to Test-Py-Pi    
 
 on:  
   push:
@@ -14,12 +12,14 @@ on:
 
 jobs:  
   build:    
-  
-  runs-on: ubuntu-latest
+
+    environment:
+      name: test-pypi
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
-        python-version: [3.9]
+        python-version: [3.7, 3.8, 3.9]
 
     steps:
     - uses: actions/checkout@v2
