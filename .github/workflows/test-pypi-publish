@@ -1,11 +1,6 @@
 name: Publish to Test-Py-Pi    
 
 on:  
-  push:
-    paths-ignore:
-      - 'docs/**'
-    tags:
-      - 'test*'
   workflow_dispatch:
   release:
     types: [created]
