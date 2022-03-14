@@ -8,7 +8,9 @@ on:
       - 'docs/**'
     tags:
       - 'test*'
-
+    workflow_dispatch:
+    release:
+      types: [created]
 jobs:  
   build:    
   
