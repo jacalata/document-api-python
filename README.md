@@ -1,5 +1,6 @@
 # document-api-python
 [![Tableau Supported](https://img.shields.io/badge/Support%20Level-Tableau%20Supported-53bd92.svg)](https://www.tableau.com/support-levels-it-and-developer-tools) [![Build Status](https://travis-ci.org/tableau/document-api-python.svg?branch=master)](https://travis-ci.org/tableau/document-api-python)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjacalata%2Fdocument-api-python.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fjacalata%2Fdocument-api-python?ref=badge_shield)
 
 This repo contains Python source and example files for the Tableau Document API. 
 
@@ -31,3 +32,7 @@ Features include:
 We don't yet support creating files from scratch, adding extracts into workbooks or data sources, or updating field information
 
 As of 2021, this SDK no longer supports Python 2.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjacalata%2Fdocument-api-python.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fjacalata%2Fdocument-api-python?ref=badge_large)
